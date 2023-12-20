@@ -1,7 +1,10 @@
 package com.simple.db.connect;
 
+import java.sql.SQLException;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args) throws SQLException {
+        HikariDBConnect hikariDBConnect = new HikariDBConnect();
+        hikariDBConnect.run();
     }
 }
