@@ -1,0 +1,7 @@
+1. Create Simple java application
+2. add dependency of 'mysql-connector-java' to connect to DB - it has driver that connects to DB
+3. write vanilla code to connect to DB
+    3.1 DriverManager.getConnection() is an older way to get connection object - because it is opening and closing
+    connection for each call there is no pooling support for connections.
+    3.2 Modern way is to use some kind of datasource that provide pooling support
+    3.3 Datasource is interface that has multiple impls that returns Connection object

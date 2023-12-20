@@ -1,0 +1,4 @@
+rootProject.name = 'simple-java-db-connect'
+include 'vanila-java-connect'
+include 'vanila-java-hikari-connect'
+
